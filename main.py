@@ -2,7 +2,7 @@ import requests
 from tkinter import Tk, Label, Button, Entry, END, Toplevel, messagebox
 
 # API Key for OpenWeatherMap
-KEY = "e7a8e2bca27b931646a30deef1709243"
+KEY = "ENTER YOUR API KEY HERE"
 
 # Get the public IP address
 IP = requests.get('https://api.ipify.org').content.decode('utf8')
