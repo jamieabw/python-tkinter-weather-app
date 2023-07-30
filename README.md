@@ -1,13 +1,14 @@
 # python-tkinter-weather-app
-Weather App
+__Weather App__
 This is a simple weather application that allows users to retrieve weather information by specifying their latitude and longitude or by using auto-detection based on their IP address. The application utilizes the OpenWeatherMap API to fetch weather data.
 
-Prerequisites
+__Prerequisites__
 To run this application, you need to have the following:
 
 Python 3 installed on your machine
 The requests library installed (pip install requests)
-Installation
+
+__Installation__:
 Clone or download this repository to your local machine.
 
 Open a terminal or command prompt and navigate to the project directory.
@@ -17,7 +18,7 @@ Run the application by executing the following command:
 python weather_app.py
 ```
 
-Usage
+__Usage__
 Upon launching the application, a window will appear with latitude and longitude input fields, a submit button, and an auto-detect location button.
 To manually enter the coordinates, type the latitude and longitude values into the respective input fields.
 Click the "Submit" button to retrieve the weather information for the specified location.
